@@ -1,0 +1,588 @@
+#simscreen {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 600px;
+	width: 800px;
+	border: solid 1px;
+  }
+  #copyright {
+	position: absolute;
+	left: 50px;
+	top: 580px;
+	font-family: verdana;
+	font-size: 12px;
+  }
+  
+  #title {
+	position: relative;
+	left: 0px;
+	top: -32px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	background-color: black;
+	font-family: verdana;
+	color: White;
+	text-transform: uppercase;
+  }
+
+  #title h3 {
+	padding-top: 2px;
+	margin: 0px;
+	text-transform: uppercase;
+  }
+  
+  .simsubscreen {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	height: 530px;
+	width: 745px;
+  }
+  .screen {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	height: 530px;
+	width: 455px;
+  }
+  .incanvas {
+	margin: 5px 0 0 5px;
+	padding: 0;
+  }
+  #nextButton {
+	position: absolute;
+	left: 750px;
+	top: 530px;
+	cursor: pointer;
+  }
+  
+  .steptext {
+	display: inline;
+  }
+  
+  .circlebg {
+	border-radius: 100%;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	background: #000;
+  }
+ 
+
+  .tooltip {
+	position: initial;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	color: red;
+  }
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 100;
+  }
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  @keyframes moveScale{
+    0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 37px;
+		top: 238px;
+    	width: 582px;
+}
+}
+
+
+@-webkit-keyframes moveScale
+{
+	0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 58px;
+		top: 228px;
+    	width: 596px;
+}
+} 
+
+
+@keyframes moveScale1{
+    0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 25px;
+		top: 234px;
+    	width: 602px;
+}
+}
+
+
+@-webkit-keyframes moveScale1
+{
+	0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 25px;
+		top: 234px;
+    	width: 602px;
+}
+} 
+
+
+@keyframes moveScale2{
+    0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 85px;
+		top: 234px;
+    	width: 476px;
+}
+}
+
+
+@-webkit-keyframes moveScale2
+{
+	0% {
+		left: 320px;
+		top: 100px;
+		width: 55px;
+	}
+    100% {
+		left: 85px;
+		top: 234px;
+    	width: 476px;
+}
+} 
+
+@-webkit-keyframes mover {
+	0% {
+	  transform: rotate(-30deg);
+	}
+	100% {
+	  transform: rotate(0deg);
+	}
+  }
+  @keyframes mover {
+	0% {
+	  transform: rotate(-30deg);
+	}
+	100% {
+	  transform: rotate(0deg);
+	}
+  }
+
+@keyframes movep {
+	0% {
+	  top: 90px;
+	}
+	100% {
+	  top: 95px;
+	}
+  }
+  @-webkit-keyframes movep {
+	0% {
+	  top: 90px;
+	}
+	100% {
+	  top: 95px;
+	}
+  }
+
+  .pop-up{
+	position: absolute;
+	   left: 372px;
+	   bottom: 22%;
+	   background-color: #150202cc;
+	   padding: 4px 8px;
+	   color: rgb(255, 254, 254);
+	   border-radius: 5px;
+	   display: none;
+	   word-wrap: break-word;
+	   margin: 0 auto;
+	   transform: translateX(-50%);
+	   top: 36em;
+   }
+   .pop-up-height{
+	 height: 64px;
+		 bottom: 4%;
+   
+   }
+
+   @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	 
+	  opacity: 1;
+	}
+	}
+@-webkit-keyframes fadeIn {
+	  0% {
+		opacity: 0;
+	  }
+	  100% {
+	   
+		opacity: 1;
+	  }
+	  }
+@keyframes connect1 {
+		0% {
+		 /* rotate: -4deg; */
+		 left: 65px;
+		}
+		100% {
+			rotate: -5deg;
+			left: 53px;
+		}
+		}
+@-webkit-keyframes connect1 {
+		  0% {
+			/* rotate: -4deg; */
+			left: 67px;
+		  }
+		  100% {
+			rotate: -5deg;
+			left: 53px;
+		  }
+		  }
+
+ @keyframes connect2 {
+			0% {
+			 /* rotate: -4deg; */
+			 left: 240px;
+			 height: 58px;
+			}
+			100% {
+				/* rotate: -12deg; */
+				left: 222px;
+				height: 56px;
+			}
+			}
+@-webkit-keyframes connect2 {
+			  0% {
+				/* rotate: -4deg; */
+				left: 240px;
+				height: 58px;
+			  }
+			  100% {
+				/* rotate: -12deg; */
+				left: 222px;
+				height: 56px;
+			  }
+			  }
+ @keyframes connect3 {
+				0% {
+				 /* rotate: -4deg; */
+				 left: 416px;
+				 /* height: 62px; */
+				}
+				100% {
+					/* rotate: -6deg; */
+					left: 403px;
+					height: 68px;
+					/* height: 81px; */
+				}
+				}
+@-webkit-keyframes connect3 {
+				  0% {
+					/* rotate: -4deg; */
+					left: 416px;
+					height: 68px;
+					/* height: 62px; */
+				  }
+				  100% {
+					/* rotate: -6deg; */
+					left: 403px;
+					/* height: 81px; */
+				  }
+				  }
+
+
+ @keyframes connect4 {
+					0% {
+					 /* rotate: -4deg; */
+					 left: 582px;
+					}
+					100% {
+						rotate: -17deg;
+						left: 572px;
+						height: 79px;
+						top: 117px;
+					}
+					}
+@-webkit-keyframes connect4 {
+					  0% {
+						/* rotate: -4deg; */
+						left: 582px;
+					  }
+					  100% {
+						rotate: -17deg;
+						left: 572px;
+						height: 79px;
+						top: 117px;
+					  }
+					  }
+
+
+ @keyframes hand1 {
+						0% {
+						 left: 82px;
+						 top: 65px;
+						}
+						100% {
+						left: 47px;
+						top: 95px;
+						}
+						}
+@-webkit-keyframes hand1 {
+							0% {
+								left: 82px;
+								top: 65px;
+							   }
+							   100% {
+							   left: 47px;
+							   top: 95px;
+							   }
+						  }
+
+ @keyframes hand2 {
+0% {
+ left: 253px;
+ top: 37px;
+}
+100% {
+left: 221px;
+top: 95px;
+}
+}
+@-webkit-keyframes hand2 {
+0% {
+left: 253px;
+top: 37px;
+ }
+100% {
+left: 221px;
+top: 95px;
+ }
+ }
+
+ @keyframes movek {
+	0% {
+	  left: 327px;
+	  top: 381px;
+	}
+	100% {
+		left: 376px;
+		top: 319px;
+	}
+  }
+  @-webkit-keyframes movek {
+	0% {
+	  left: 327px;
+	  top: 381px;
+	}
+	100% {
+	  left: 376px;
+	  top: 319px;
+	}
+  }
+
+  @keyframes movek1 {
+	0% {
+	  left: 233px;
+	  top: 379px;
+	}
+	90% {
+	  left: 235px;
+	  top: 310px;
+	}
+	100% {
+		left: 247px;
+		top: 310px;
+	  }
+  }
+  @-webkit-keyframes movek1 {
+	0% {
+	  left: 233px;
+	  top: 379px;
+	}
+	100% {
+	  left: 235px;
+	  top: 310px;
+	}
+  }
+
+  @keyframes switch {
+	0% {
+		left: 268px;
+		top: 312px;
+	 	rotate: -4deg;
+	}
+	100% {
+		rotate: 94deg;
+    	left: 278px;
+    	top: 312px;
+		
+	}
+	}
+@-webkit-keyframes switch {
+	  0% {
+		left: 268px;
+		top: 312px;
+		rotate: -4deg;
+	  }
+	  100% {
+		rotate: 94deg;
+    	left: 278px;
+    	top: 312px;
+	  }
+	  }
+	  th,
+	  td {
+		width: 100px;
+		border: 1px solid black;
+	  }
+	  
+	  thead>tr {
+		position: relative;
+		display: block;
+		font-size: 13px;
+	  }
+	  
+	  tbody {
+		display: block;
+		height: 68px;
+	  
+		width: 539px;
+	
+	  }
+
+	#tab22-1{
+		display:none; 
+		position:absolute; 
+		left: 80px;
+		top: 332px;
+		width: 544px;
+		overflow:auto; 
+		font-size:12px; 
+		text-align:center;
+		align-items:center;
+		justify-content:center;
+		height:180px;
+	  }
+	  #tab22-2{
+		display:none; 
+		position:absolute; 
+		left: 80px;
+		top: 332px;
+		width: 544px;
+		overflow:auto; 
+		font-size:12px; 
+		text-align:center;
+		align-items:center;
+		justify-content:center;
+		height:180px;
+	  }
+
+	  #tab33-3{
+		display:none; 
+		position:absolute; 
+		left: 80px;
+		top: 332px;
+		width: 544px;
+		overflow:auto; 
+		font-size:12px; 
+		text-align:center;
+		align-items:center;
+		justify-content:center;
+		height:180px;
+	  }
+	  .highlighted-row {
+		background-color: rgb(227, 238, 71);
+	  }
+	  .highlighted-row2 {
+		background-color: rgb(227, 238, 71);
+	  }
+	  #alerttxt{
+		visibility:hidden;
+	}
+
+
+
+	.highlight {
+		background-color: yellow;
+	  }
+
+	#alerttxt2{
+		visibility:hidden;
+	}
+
+	#alerttxt3{
+		visibility:hidden;
+	}
+	@keyframes tril1 {
+		0% {
+			opacity: 0;
+		}
+		30% {
+			opacity: 0.1;
+			
+		}
+		50% {
+			opacity: 0.2;
+			
+		}
+		70% {
+			opacity: 0.5;
+			
+		}
+		100% {
+			opacity: 1;
+			
+		}
+		}
+	@-webkit-keyframes tril1 {
+		0% {
+			opacity: 0;
+		}
+		30% {
+			opacity: 0.1;
+			
+		}
+		50% {
+			opacity: 0.2;
+			
+		}
+		70% {
+			opacity: 0.5;
+			
+		}
+		100% {
+			opacity: 1;
+			
+		}}	
+	
